@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm3.h:1762:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../GPSNodeStateMachine/GPS_StateMachine.c:34:6:gps_wait_signal	4	static
+../GPSNodeStateMachine/GPS_StateMachine.c:39:6:gps_getdata	8	static
+../GPSNodeStateMachine/GPS_StateMachine.c:44:6:gps_check_signal	8	static
+../GPSNodeStateMachine/GPS_StateMachine.c:65:6:gps_recovery	8	static
+../GPSNodeStateMachine/GPS_StateMachine.c:94:6:gps_process	8	static
+../GPSNodeStateMachine/GPS_StateMachine.c:111:6:send_error_signal	8	static
+../GPSNodeStateMachine/GPS_StateMachine.c:132:6:gps_send_data	8	static
+../GPSNodeStateMachine/GPS_StateMachine.c:153:10:combine_ids	24	static

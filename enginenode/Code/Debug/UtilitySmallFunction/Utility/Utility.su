@@ -1,0 +1,7 @@
+../UtilitySmallFunction/Utility/Utility.c:10:6:reverseStr	32	static
+../UtilitySmallFunction/Utility/Utility.c:21:5:intToStr	32	static
+../UtilitySmallFunction/Utility/Utility.c:44:5:quick_pow10	16	static
+../UtilitySmallFunction/Utility/Utility.c:49:5:FloatToStr	40	static
+../UtilitySmallFunction/Utility/Utility.c:85:7:StrToFloat	48	static
+../UtilitySmallFunction/Utility/Utility.c:118:7:bytes2Float	24	static
+../UtilitySmallFunction/Utility/Utility.c:128:6:float2Bytes	24	static

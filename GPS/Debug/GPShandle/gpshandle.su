@@ -1,0 +1,5 @@
+../GPShandle/gpshandle.c:18:5:gps_checksum	32	static
+../GPShandle/gpshandle.c:41:5:nmea_GPGGA	232	static
+../GPShandle/gpshandle.c:101:5:nmea_GPGSA	152	static
+../GPShandle/gpshandle.c:126:5:nmea_GPGLL	232	static
+../GPShandle/gpshandle.c:174:6:nmea_parse	40	static

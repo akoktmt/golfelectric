@@ -1,0 +1,63 @@
+17:28:59 **** Incremental Build of configuration Debug for project SteeringNode ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/Periodics" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/STM32_RTOS_PeripheralDriver" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/STM32-Hardware-Driver" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/UtilitySmallFunction" -I../CAN_Handle -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SteeringNode.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\win 10\OneDrive\Desktop\GolfCar\GoftCar_Code\steering-node\Code\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SteeringNode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SteeringNode.elf
+ 
+arm-none-eabi-size  SteeringNode.elf 
+arm-none-eabi-objdump -h -S SteeringNode.elf  > "SteeringNode.list"
+   text	   data	    bss	    dec	    hex	filename
+  50200	    104	  13728	  64032	   fa20	SteeringNode.elf
+Finished building: default.size.stdout
+ 
+Finished building: SteeringNode.list
+ 
+17:29:07 **** Incremental Build of configuration Debug for project SteeringNode ****
+make -j8 all 
+arm-none-eabi-size  SteeringNode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  50200	    104	  13728	  64032	   fa20	SteeringNode.elf
+Finished building: default.size.stdout
+ 
+17:32:48 **** Incremental Build of configuration Debug for project SteeringNode ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/Periodics" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/STM32_RTOS_PeripheralDriver" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/STM32-Hardware-Driver" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/steering-node/Code/UtilitySmallFunction" -I../CAN_Handle -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SteeringNode.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\win 10\OneDrive\Desktop\GolfCar\GoftCar_Code\steering-node\Code\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SteeringNode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SteeringNode.elf
+ 
+arm-none-eabi-size  SteeringNode.elf 
+arm-none-eabi-objdump -h -S SteeringNode.elf  > "SteeringNode.list"
+   text	   data	    bss	    dec	    hex	filename
+  50200	    104	  13728	  64032	   fa20	SteeringNode.elf
+Finished building: default.size.stdout
+ 
+Finished building: SteeringNode.list
+ 
+17:33:09 **** Incremental Build of configuration Debug for project SteeringNode ****
+make -j8 all 
+arm-none-eabi-size  SteeringNode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  50200	    104	  13728	  64032	   fa20	SteeringNode.elf
+Finished building: default.size.stdout
+ 
+17:33:46 **** Incremental Build of configuration Debug for project SteeringNode ****
+make -j8 all 
+arm-none-eabi-size  SteeringNode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  50200	    104	  13728	  64032	   fa20	SteeringNode.elf
+Finished building: default.size.stdout
+ 
+17:34:12 **** Incremental Build of configuration Debug for project SteeringNode ****
+make -j8 all 
+arm-none-eabi-size  SteeringNode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  50200	    104	  13728	  64032	   fa20	SteeringNode.elf
+Finished building: default.size.stdout
+ 
+17:35:06 **** Incremental Build of configuration Debug for project SteeringNode ****
+make -j8 all 
+arm-none-eabi-size  SteeringNode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  50200	    104	  13728	  64032	   fa20	SteeringNode.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,3 @@
+../Core/Src/freertos.c:113:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:119:6:CanRecv	1
+../Core/Src/freertos.c:130:6:DataProcessing	1

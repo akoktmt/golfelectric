@@ -1,0 +1,21 @@
+11:06:05 **** Incremental Build of configuration Debug for project EngineNode ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32_THREAD_SAFE_STRATEGY=4 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/enginenode/Code/STM32_RTOS_PeripheralDriver" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/enginenode/Code/STM32-Hardware-Driver" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/enginenode/Code/Periodics" -I../Core/ThreadSafe -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/enginenode/Code/UtilitySmallFunction" -I"C:/Users/win 10/OneDrive/Desktop/GolfCar/GoftCar_Code/enginenode/Code/CRC" -I../CAN_Handle -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartDefaultTask':
+../Core/Src/main.c:631:1: warning: multi-line comment [-Wcomment]
+  631 | //      IMUPublisher_EnablePub(&IMUPub, IMUPUBLISHER_PUB_EULER);\
+      | ^
+arm-none-eabi-gcc -o "EngineNode.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\win 10\OneDrive\Desktop\GolfCar\GoftCar_Code\enginenode\Code\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EngineNode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EngineNode.elf
+ 
+arm-none-eabi-size  EngineNode.elf 
+arm-none-eabi-objdump -h -S EngineNode.elf  > "EngineNode.list"
+   text	   data	    bss	    dec	    hex	filename
+  48116	    128	  13640	  61884	   f1bc	EngineNode.elf
+Finished building: default.size.stdout
+ 
+Finished building: EngineNode.list
+ 
+
+11:06:08 Build Finished. 0 errors, 1 warnings. (took 2s.696ms)
+

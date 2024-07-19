@@ -1,0 +1,10 @@
+12:01:05 **** Incremental Build of configuration Debug for project GPS ****
+make -j8 all 
+arm-none-eabi-size  GPS.elf 
+   text	   data	    bss	    dec	    hex	filename
+  44072	    476	   2908	  47456	   b960	GPS.elf
+Finished building: default.size.stdout
+ 
+
+12:01:05 Build Finished. 0 errors, 0 warnings. (took 440ms)
+
